@@ -69,6 +69,7 @@ def star(t, points, size, rotation, lineColor):
         t.fd(size)
         #another attmpe
         t.lt(interiorAngle)
+        #trying one more time
         t.fd(size)
         t.rt(exteriorAngle)
 
