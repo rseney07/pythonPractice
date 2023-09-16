@@ -67,6 +67,7 @@ def star(t, points, size, rotation, lineColor):
     t.lt(rotation)
     while p < points:
         t.fd(size)
+        #another attmpe
         t.lt(interiorAngle)
         t.fd(size)
         t.rt(exteriorAngle)
